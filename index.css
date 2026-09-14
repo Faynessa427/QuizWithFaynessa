@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(60, 18, 60);
+    color: rgb(246, 210, 246);
+}
+.Content-container{
+    background-color:rgb(122, 73, 122) ;
+    padding: 60px 40px 60px 40px ;
+    align-items: center;
+    justify-self: center;
+    margin-top: 90px;
+    border-radius: 40px;
+}
+.first-h2{
+    font-family: cursive;
+}
+.first-h1{
+   text-align: center;
+   font-size: 30px;
+   font-weight: 600;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#start{
+    background-color: rgb(60, 18, 60);
+    color: rgb(247, 219, 247);
+    padding: 10px 10px 10px 10px ;
+    border-radius: 20px;
+    margin-top: 30px;
+}
