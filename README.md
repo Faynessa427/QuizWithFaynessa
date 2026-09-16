@@ -1,6 +1,8 @@
 QuizWithFaynessa is a simple quiz platform where users can test their knowledge, answer multiple-choice questions, and see their results instantly.
 
  Features
+
+ 
 	•	Interactive multiple-choice quizzes
 	•	 Automatic score calculation
 	•	 Final score displayed after completing the quiz
@@ -10,6 +12,8 @@ QuizWithFaynessa is a simple quiz platform where users can test their knowledge,
 	•	 Built with vanilla HTML, CSS, and JavaScript
 
  Technologies Used
+
+ 
 	•	HTML5
 	•	CSS3
 	•	JavaScript
