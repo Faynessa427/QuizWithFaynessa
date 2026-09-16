@@ -25,14 +25,24 @@ https://faynessa427.github.io/QuizWithFaynessa/
 
 📂 Project Structure
 
+
+
 QuizWithFaynessa/
+
 ├── index.html         # Landing page
+
 ├── index.css          # Landing page styles
+
 ├── takeQuiz.html       # Quiz page
+
 ├── takeQuiz.css        # Quiz page styles
+
 ├── takeQuiz.js         # Quiz logic (questions, timer, scoring)
+
 ├── result.html         # Results page
+
 ├── result.css          # Results page styles
+
 └── result.js           # Results logic
 
  Author
