@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(60, 18, 60);
+    background-color: rgb(64, 3, 64);
     color: rgb(246, 210, 246);
 }
 .Content-container{
@@ -20,6 +20,7 @@ body{
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #start{
+    display: inline-block;
     background-color: rgb(60, 18, 60);
     color: rgb(247, 219, 247);
     padding: 10px 10px 10px 10px ;

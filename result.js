@@ -1,4 +1,3 @@
- <script>
       const questionCount = (() => {
         try {
           const questions = JSON.parse(localStorage.getItem('quizQuestions') || '[]');
@@ -77,4 +76,3 @@
         localStorage.removeItem('score');
         localStorage.removeItem('quizAnswers');
       });
-    </script>
