@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Results</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="result.css">
+  </head>
+  <body>
+    <main class="result-shell">
+      <p class="eyebrow">Quiz complete</p>
+      <h1>Your results are in</h1>
+      <p class="summary" id="summary">Here is how you did.</p>
+
+      <section class="result-card" aria-labelledby="score-heading">
+        <div class="chart-wrap">
+          <div class="pie-chart" id="pie-chart" role="img" aria-label="Quiz score pie chart">
+            <span class="chart-center" id="chart-center">0 / 10</span>
+          </div>
+          <div class="legend" aria-label="Chart legend">
+            <span class="legend-item"><span class="legend-swatch correct"></span>Correct</span>
+            <span class="legend-item"><span class="legend-swatch incorrect"></span>Incorrect</span>
+          </div>
+        </div>
+
+        <div class="score-copy">
+          <h2 id="score-heading">Score: 0 / 10</h2>
+          <p id="score-message">Every question is a chance to learn something new.</p>
+          <a class="button" href="index.html" id="restart-button">Try again &rarr;</a>
+        </div>
+      </section>
+
+      <section class="correction-section" aria-labelledby="correction-heading">
+        <h2 id="correction-heading">Answer corrections</h2>
+        <div class="correction-list" id="correction-list"></div>
+      </section>
+    </main>
+    <script src="result.js"></script>
+  </body>
+</html>

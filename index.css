@@ -7,11 +7,11 @@ body{
     padding: 60px 40px 60px 40px ;
     align-items: center;
     justify-self: center;
-    margin-top: 90px;
+    margin-top: 110px;
     border-radius: 40px;
 }
 .first-h2{
-    font-family: cursive;
+    font-family: 'Times New Roman', Times, serif;
 }
 .first-h1{
    text-align: center;
@@ -26,3 +26,7 @@ body{
     border-radius: 20px;
     margin-top: 30px;
 }
+a{
+     color: rgb(247, 219, 247);
+     text-decoration: none;
+    }
